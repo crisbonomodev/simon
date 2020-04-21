@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Simon Dice</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>SIMON DICE</h1>
+      <p>En el juego de Simón, intenta memorizar la serie de teclas iluminadas y reproducirla, en cada paso se agrega una nueva clave a la serie y el juego se vuelve más difícil.
+      Si logras completar los 10 niveles, ganas!</p>
+    </header>
+    <div class="gameboard-wrapper">
+    <div class="gameboard">
+      <div id="verde" class="color verde left" data-color="verde"></div>
+      <div id="rojo" class="color rojo right" data-color="rojo"></div>
+      <div id="naranja" class="color naranja left" data-color="naranja"></div>
+      <div id="celeste" class="color celeste right" data-color="celeste"></div>
+    </div>
+    <button id="btnEmpezar" class="btn-start" onclick="empezarJuego()">Empezar a jugar!</button>
+    </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="juego.js"></script>
+    <footer>
+      <p>Juego desarrollado por <a target="_blank" href="https://www.linkedin.com/in/cristian-bonomo-a78610167/">Cristian Bonomo</a> a partir del curso "Fundamentos de Javascript" de <a href="https://platzi.com/">Platzi.com</a> </p>
+    </footer>
+  </body>
+</html>

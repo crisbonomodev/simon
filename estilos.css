@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background: url(img/background.jpg);
+    font-family: 'Indie Flower', cursive;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .gameboard-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100vh;
+  }
+
+  .gameboard {
+    width: 100%;
+    height: 100%;
+    border-radius: 20%;
+    overflow: hidden;
+    margin: 0 auto;
+    max-height: 80vh;
+    max-width: 80vh;
+    border: 1px solid linear-gradient(to bottom right,black, gray);
+    background-image: linear-gradient(to bottom right,black, gray);
+    padding: 10px;
+  }
+
+  .color {
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+    
+  }
+
+  .left {
+    float: left;
+  }
+
+  .right {
+    float: left;
+  }
+
+  .celeste {
+    background: #22a6b3;
+    border-radius: 50%;
+
+  }
+
+  .celeste.light {
+    background: #7ed6df;
+    border-radius: 50%;
+  }
+
+  .rojo {
+    background:#8B0000;
+    border-radius: 50%;
+  }
+
+  .rojo.light {
+    background: red ;
+    border-radius: 50%;
+  }
+
+  .naranja {
+    background: #f0932b;
+    border-radius: 50%;
+  }
+
+  .naranja.light {
+    background: #ffbe76;
+    border-radius: 50%;
+  }
+
+  .verde {
+    background: #6ab04c;
+    border-radius: 50%;
+  }
+
+  .verde.light {
+    background: #badc58;
+    border-radius: 50%;
+  }
+
+  .btn-start {
+    width: 400px;
+    height: 100px;
+    background: rgb(236, 231, 185);
+    border-radius: 10px;
+    color: #2c3e50;
+    font-family: inherit;
+    font-size: 2.5rem;
+    position: absolute;
+    top: ;
+    left: calc(50% - 200px);
+  }
+
+  .hide {
+    display: none;
+  }
