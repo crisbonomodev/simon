@@ -4,7 +4,9 @@ body {
     align-items: center;
     height: 100vh;
     flex-direction: column;
-    background: url(img/background.jpg);
+    background: url(https://i.postimg.cc/0yFjpVBf/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Indie Flower', cursive;
   }
 
