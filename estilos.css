@@ -5,8 +5,13 @@ body {
     height: 100vh;
     flex-direction: column;
     background: url(https://i.postimg.cc/0yFjpVBf/background.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-color: rgb(250, 129, 15);
+    
+ 
+    
     font-family: 'Indie Flower', cursive;
   }
 
@@ -14,7 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90vw;
+    width: 50vw;
   }
 
   p {
