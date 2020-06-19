@@ -1,4 +1,4 @@
-# Simón Dice
+# Simón Dice - https://cristianbonomo.github.io/simon/
 
 Este juego fue desarrollado por Cristian Bonomo, a partir del curso de Platzi.com "Fundamentos de Javascript". 
 Temas aplicados en el curso:
